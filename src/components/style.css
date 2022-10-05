@@ -31,8 +31,9 @@ a {
 h3 {
   color: black;
 }
-.btn-primary {
+.card-footer {
   background-color: black;
+  color: black;
   border-radius: 5px;
   align-items: center;
 }

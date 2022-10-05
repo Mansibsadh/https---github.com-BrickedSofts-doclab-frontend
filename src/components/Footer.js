@@ -7,7 +7,7 @@ function Footer() {
         <div class="row">
           <div class="col-sm-12">
             <h6 class="text-white text-center mb-3 mt-3">
-              Copyright @ Loreal Ipsom Rights Reserved
+              Copyright @ Doc lab Rights Reserved
             </h6>
           </div>
         </div>

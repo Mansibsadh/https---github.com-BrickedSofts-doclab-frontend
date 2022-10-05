@@ -10,7 +10,7 @@ function Header() {
           <div class="col-sm-12">
             <nav class="navbar navbar-expand-lg ">
               <a class="navbar-brand text-white" href="#">
-                Gammy Tours
+                DOC lab
               </a>
               <button
                 class="navbar-toggler"
@@ -28,22 +28,22 @@ function Header() {
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item ">
                     <a class="nav-link " href="#about">
-                      About<span class="sr-only">(current)</span>
+                      About<span class="sr-only"></span>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#destinations">
-                      Destinations<span class="sr-only">(current)</span>
+                      Sections<span class="sr-only"></span>
                     </a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link" href="#places">
-                      Places<span class="sr-only">(current)</span>
+                      Officials Message<span class="sr-only"></span>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link " href="#tourist">
-                      Tourists Detail<span class="sr-only">(current)</span>
+                      Contact<span class="sr-only"></span>
                     </a>
                   </li>
                 </ul>
