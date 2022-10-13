@@ -1,58 +1,24 @@
 import React from "react";
-import "./style.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 function Header() {
   return (
-    <section class="navbar-dark bg-dark header">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <nav class="navbar navbar-expand-lg ">
-              <a class="navbar-brand text-white" href="#">
-                DOC lab
-              </a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
+    <header className="header">
+      <a href="a" className="logo">
+        <i className="fas fa-heartbeat"></i> Mansib
+      </a>
 
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item ">
-                    <a class="nav-link " href="#about">
-                      About<span class="sr-only"></span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#destinations">
-                      Sections<span class="sr-only"></span>
-                    </a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link" href="#places">
-                      Officials Message<span class="sr-only"></span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link " href="#tourist">
-                      Contact<span class="sr-only"></span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </section>
+      <nav className="navbar">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#book">Book</a>
+        <a href="#review">Review</a>
+        <a href="#blogs">Blogs</a>
+      </nav>
+
+      <div id="menu-btn" className="fas fa-bars"></div>
+    </header>
   );
 }
 export default Header;
